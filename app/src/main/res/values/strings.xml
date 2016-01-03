@@ -297,6 +297,7 @@
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="navigation_drawer_subheader">Subheader</string>
+    <string name="tab_trending">Trending</string>
 
     <!-- Deleting repo -->
     <string name="are_you_sure">Are you absolutely sure?</string>
@@ -314,6 +315,7 @@
     <string name="organizations">Organizations</string>
     <string name="error_oauth_not_configured">You won\'t be able to login, because the oauth client and secret aren\'t set
 Read the README.md: https://github.com/pockethub/PocketHub#setup-environment</string>
+    <string name="explore">Explore</string>
 
 
     <string-array name="welcome_texts">

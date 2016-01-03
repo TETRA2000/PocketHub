@@ -34,6 +34,10 @@
             android:id="@+id/navigation_bookmarks"
             android:icon="@drawable/ic_github_bookmark_black_24dp"
             android:title="@string/bookmarks" />
+        <item
+            android:id="@+id/navigation_explore"
+            android:icon="@drawable/ic_github_explore_black_24dp"
+            android:title="@string/explore" />
     </group>
     <item
         android:id="@+id/navigation_organizations"

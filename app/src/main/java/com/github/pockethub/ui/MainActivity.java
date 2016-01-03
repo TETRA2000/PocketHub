@@ -56,6 +56,7 @@ import com.github.pockethub.accounts.LoginActivity;
 import com.github.pockethub.accounts.StoreCredentials;
 import com.github.pockethub.core.user.UserComparator;
 import com.github.pockethub.persistence.AccountDataManager;
+import com.github.pockethub.ui.explore.ExplorePagerFragment;
 import com.github.pockethub.ui.gist.GistsPagerFragment;
 import com.github.pockethub.ui.issue.FilterListFragment;
 import com.github.pockethub.ui.issue.IssueDashboardPagerFragment;
@@ -311,6 +312,10 @@ public class MainActivity extends BaseActivity implements
             return true;
         } else if (itemId == R.id.navigation_bookmarks) {
             switchFragment(new FilterListFragment(), null);
+            getSupportActionBar().setTitle(menuItem.getTitle());
+            return true;
+        } else if (itemId == R.id.navigation_explore) {
+            switchFragment(new ExplorePagerFragment(), null);
             getSupportActionBar().setTitle(menuItem.getTitle());
             return true;
         } else if (itemId == R.id.navigation_log_out) {
